@@ -6,7 +6,7 @@ Small script that makes reading news more fun - based on http://xkcd.com/1288/
 Usage
 --------
 
-Just the code below to your bookmarks.
+Just add the code below to your bookmarks.
 
     javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://raw.github.com/michalkow/xkcd-substitutions/master/substitutions.js';void(0);
     
