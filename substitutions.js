@@ -3,9 +3,9 @@ var words = [
 	{find: /allegedly/gi, replace: 'kinda probably'},
 	{find: /new study/gi, replace: 'tumbler post'},
 	{find: /rebuild/gi, replace: 'avenge'},
-	{find: /space/gi, replace: 'spaace'},
+	{find: /space/gi, replace: 'spaaace'},
 	{find: /google glass/gi, replace: 'virtual boy'},
-	{find: /smartphone/gi, replace: 'Pokedex'},
+	{find: /smartphone/gi, replace: 'Pokédex'},
 	{find: /electric/gi, replace: 'atomic'},
 	{find: /senator/gi, replace: 'elf-lord'},
 	{find: /car/gi, replace: 'cat'},
@@ -18,3 +18,4 @@ var words = [
 for (var i = 0; i < words.length; i++) {
 	document.body.innerHTML = document.body.innerHTML.replace(words[i].find, words[i].replace);
 };
+
