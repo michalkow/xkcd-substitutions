@@ -1,19 +1,19 @@
 function xkcdSubstitutions(){
 	var words = [
-		{find: new RegExp('witnesses\s', 'gi'), replace: 'these dudes I know '},
-		{find: new RegExp('allegedly\s', 'gi'), replace: 'kinda probably '},
-		{find: new RegExp('new study\s', 'gi'), replace: 'tumbler post '},
-		{find: new RegExp('rebuild\s', 'gi'), replace: 'avenge '},
-		{find: new RegExp('space\s', 'gi'), replace: 'spaaace '},
-		{find: new RegExp('google glass\s', 'gi'), replace: 'virtual boy '},
-		{find: new RegExp('smartphone\s', 'gi'), replace: 'Pokédex '},
-		{find: new RegExp('electric\s', 'gi'), replace: 'atomic '},
-		{find: new RegExp('senator\s', 'gi'), replace: 'elf-lord '},
-		{find: new RegExp('car\s', 'gi'), replace: 'cat '},
-		{find: new RegExp('election\s', 'gi'), replace: 'eating contest '},
-		{find: new RegExp('congressional leaders\s', 'gi'), replace: 'river spirits '},
-		{find: new RegExp('homeland security\s', 'gi'), replace: 'homestar runner '},
-		{find: new RegExp('could not be reached for comment\s', 'gi'), replace: 'is guilty and everyone knows it '},
+		{find: new RegExp('\\bwitnesses\\b', 'gi'), replace: 'these dudes I know '},
+		{find: new RegExp('\\ballegedly\\b', 'gi'), replace: 'kinda probably '},
+		{find: new RegExp('\\bnew study\\b', 'gi'), replace: 'tumbler post '},
+		{find: new RegExp('\\brebuild\\b', 'gi'), replace: 'avenge '},
+		{find: new RegExp('\\bspace\\b', 'gi'), replace: 'spaaace '},
+		{find: new RegExp('\\bgoogle glass\\b', 'gi'), replace: 'virtual boy '},
+		{find: new RegExp('\\bsmartphone\\b', 'gi'), replace: 'Pokédex '},
+		{find: new RegExp('\\belectric\\b', 'gi'), replace: 'atomic '},
+		{find: new RegExp('\\bsenator\\b', 'gi'), replace: 'elf-lord '},
+		{find: new RegExp('\\bcar\\b', 'gi'), replace: 'cat '},
+		{find: new RegExp('\\belection\\b', 'gi'), replace: 'eating contest '},
+		{find: new RegExp('\\bcongressional leaders\\b', 'gi'), replace: 'river spirits '},
+		{find: new RegExp('\\bhomeland security\\b', 'gi'), replace: 'homestar runner '},
+		{find: new RegExp('\\bcould not be reached for comment\\b', 'gi'), replace: 'is guilty and everyone knows it '},
 	];
 
 	var html = document.body.innerHTML;
