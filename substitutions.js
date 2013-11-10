@@ -2,7 +2,7 @@ function xkcdSubstitutions(){
 	var words = [
 		{find: new RegExp('\\bwitnesses\\b', 'gi'), replace: 'these dudes I know '},
 		{find: new RegExp('\\ballegedly\\b', 'gi'), replace: 'kinda probably '},
-		{find: new RegExp('\\bnew study\\b', 'gi'), replace: 'tumbler post '},
+		{find: new RegExp('\\bnew study\\b', 'gi'), replace: 'tumblr post '},
 		{find: new RegExp('\\brebuild\\b', 'gi'), replace: 'avenge '},
 		{find: new RegExp('\\bspace\\b', 'gi'), replace: 'spaaace '},
 		{find: new RegExp('\\bgoogle glass\\b', 'gi'), replace: 'virtual boy '},
