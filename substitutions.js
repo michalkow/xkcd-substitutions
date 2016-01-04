@@ -14,14 +14,33 @@ function xkcdSubstitutions(){
 		{find: new RegExp('\\bcongressional leaders\\b', 'gi'), replace: 'river spirits'},
 		{find: new RegExp('\\bhomeland security\\b', 'gi'), replace: 'homestar runner'},
 		{find: new RegExp('\\bcould not be reached for comment\\b', 'gi'), replace: 'is guilty and everyone knows it'},
+		{find: new RegExp('\\bdebate\\b', 'gi'), replace: 'dance-off'},
+		{find: new RegExp('\\bself driving\\b', 'gi'), replace: 'uncontrollably swerving'},
+		{find: new RegExp('\\bpoll\\b', 'gi'), replace: 'psychic reading'},
+		{find: new RegExp('\\bcandidate\\b', 'gi'), replace: 'airbender'},
+		{find: new RegExp('\\bdrone\\b', 'gi'), replace: 'dog'},
+		{find: new RegExp('\\bvows to\\b', 'gi'), replace: 'probably won\'t'},
+		{find: new RegExp('\\bat large\\b', 'gi'), replace: 'very large'},
+		{find: new RegExp('\\bsuccessfully\\b', 'gi'), replace: 'suddenly'},
+		{find: new RegExp('\\bexpands\\b', 'gi'), replace: 'physically expands'},
+		{find: new RegExp('\\b(first|second|third)-degree\\b', 'gi'), replace: 'friggin\' awful'},
+		{find: new RegExp('\\ban unknown number\\b', 'gi'), replace: 'like hundreds'},
+		{find: new RegExp('\\bfront runner\\b', 'gi'), replace: 'blade runner'},
+		{find: new RegExp('\\bglobal\\b', 'gi'), replace: 'spherical'},
+		{find: new RegExp('\\byears\\b', 'gi'), replace: 'minutes'},
+		{find: new RegExp('\\bminutes\\b', 'gi'), replace: 'years'},
+		{find: new RegExp('\\bno indication\\b', 'gi'), replace: 'lots of signs'},
+		{find: new RegExp('\\burged restraint by\\b', 'gi'), replace: 'drunkenly egged on'},
+		{find: new RegExp('\\bhorsepower\\b', 'gi'), replace: 'tons of horsemeat '},
 	];
 
 	var html = document.body.innerHTML;
 	for (var i = 0; i < words.length; i++) {
 		html = html.replace(words[i].find, words[i].replace);
-	}; 
+	}
 
 	return html;
 }
 
 document.body.innerHTML=xkcdSubstitutions();
+// vim: noet
