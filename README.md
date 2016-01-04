@@ -1,14 +1,14 @@
 xkcd-substitutions
 ==================
 
-Small script that make reading news more fun - based on http://xkcd.com/1288/
+Small script that make reading news more fun - based on http://xkcd.com/1288/ and http://xkcd.com/1625/
 
 Usage
 --------
 
 Just add the code below to your bookmarks.
 
-    javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://raw.github.com/michalkow/xkcd-substitutions/master/substitutions.js';void(0);
+    javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://raw.github.com/meuserj/xkcd-substitutions/master/substitutions.js';void(0);
     
 				
 License
