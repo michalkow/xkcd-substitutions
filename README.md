@@ -8,7 +8,7 @@ Usage
 
 Just add the code below to your bookmarks.
 
-    javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://raw.github.com/meuserj/xkcd-substitutions/master/substitutions.js';void(0);
+    javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://cdn.rawgit.com/michalkow/xkcd-substitutions/master/substitutions.js';void(0);
     
 				
 License
