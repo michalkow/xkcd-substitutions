@@ -1,7 +1,7 @@
 xkcd-substitutions
 ==================
 
-Small script that make reading news more fun - based on http://xkcd.com/1288/ and http://xkcd.com/1625/
+Small script that make reading news more fun - based on http://xkcd.com/1288/, http://xkcd.com/1625/, and http://xkcd.com/1679/
 
 Usage
 --------
