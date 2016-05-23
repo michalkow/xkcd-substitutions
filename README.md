@@ -1,7 +1,7 @@
 xkcd-substitutions
 ==================
 
-Small script that make reading news more fun - based on http://xkcd.com/1288/, http://xkcd.com/1625/, and http://xkcd.com/1679/
+A small script that makes reading news more fun – based on http://xkcd.com/1288/, http://xkcd.com/1625/, and http://xkcd.com/1679/.
 
 Usage
 --------
@@ -13,8 +13,8 @@ Just add the code below to your bookmarks.
 				
 License
 -------
-xkcd-substitutions script is released under [MIT license](http://opensource.org/licenses/mit-license.php).
+The xkcd-substitutions script is released under the [MIT license](http://opensource.org/licenses/mit-license.php).
 
 Credits
 -------
-xkcd-substitutions script was created by [Michał Kowalkowski](https://github.com/michalkow). You can contact me at [kowalkowski.michal@gmail.com](mailto:kowalkowski.michal@gmail.com)
+The xkcd-substitutions script was created by [Michał Kowalkowski](https://github.com/michalkow). You can contact me at [kowalkowski.michal@gmail.com](mailto:kowalkowski.michal@gmail.com).
