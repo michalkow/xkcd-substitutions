@@ -1,4 +1,4 @@
-function xkcdSubstitutions(){
+function xkcdSubstitutions(html){
 	var words = [
 		{find: new RegExp('\\bwitnesses\\b', 'gi'), replace: 'these dudes I know'},
 		{find: new RegExp('\\ballegedly\\b', 'gi'), replace: 'kinda probably'},
@@ -57,13 +57,13 @@ function xkcdSubstitutions(){
 		{find: new RegExp('\\byou won\'t believe\\b', 'gi'), replace: 'I\'m really sad about'}
 	];
 
-	var html = document.body.innerHTML;
+	var newHTML = html;
 	for (var i = 0; i < words.length; i++) {
-		html = html.replace(words[i].find, words[i].replace);
+		newHTML = newHTML.replace(words[i].find, words[i].replace);
 	}
 
-	return html;
+	return newHTML;
 }
 
-document.body.innerHTML=xkcdSubstitutions();
+document.body.innerHTML = xkcdSubstitutions(document.body.innerHTML);
 // vim: noet
