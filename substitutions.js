@@ -57,13 +57,11 @@ function xkcdSubstitutions(html){
 		{find: new RegExp('\\byou won\'t believe\\b', 'gi'), replace: 'I\'m really sad about'}
 	];
 
-	var newHTML = html;
 	for (var i = 0; i < words.length; i++) {
-		newHTML = newHTML.replace(words[i].find, words[i].replace);
+		html = html.replace(words[i].find, words[i].replace);
 	}
 
-	return newHTML;
+	return html;
 }
 
 document.body.innerHTML = xkcdSubstitutions(document.body.innerHTML);
-// vim: noet
